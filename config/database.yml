@@ -1,18 +1,22 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  pool: 5
-  host: localhost
   username: postgres
-  password: Ali.123@@$
-
+  password: 1010
+  # For details on connection pooling, see Rails configuration guide
+  # https://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 development:
   <<: *default
-  database: your_db_development
-
+  database: final_project_backend_development
+  username: postgres
+  password: 1010
 test:
   <<: *default
-  database: your_db_test
+  database: final_project_backend_test
 
 production:
-  url: <%= ENV['DATABASE_URL'] %>
+  <<: *default
+  database: final_project_backend_production
+  username: final_project_backend
+  password: <%= ENV["FINAL_PROJECT_BACKEND_DATABASE_PASSWORD"] %>
