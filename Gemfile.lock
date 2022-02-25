@@ -91,6 +91,7 @@ GEM
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.10.0)
+    ffi (1.15.5)
     ffi (1.15.5-x64-mingw32)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -259,6 +260,7 @@ DEPENDENCIES
   cloudinary (~> 1.22)
   debug
   devise (~> 4.8, >= 4.8.1)
+  ffi
   jwt (~> 2.3)
   net-http
   pg (~> 1.1)
@@ -270,7 +272,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.7.4p191
+   ruby 2.7.5p203
 
 BUNDLED WITH
-   2.3.7
+   2.3.5
