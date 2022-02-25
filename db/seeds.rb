@@ -6,11 +6,11 @@ ActiveRecord::Base.connection.tables.each do |t|
 end
 
 
-@user1 = User.create!(name: 'user1')
-@user2 = User.create!(name: 'user2')
-@user3 = User.create!(name: 'user3')
-@user4 = User.create!(name: 'user4')
-@user5 = User.create!(name: 'user5')
+@user1 = User.create!(name: 'user1', password: "123456789", email:"user1@test.com")
+@user2 = User.create!(name: 'user2', password: "123456780", email:"user2@test.com")
+@user3 = User.create!(name: 'user3', password: "123456781", email:"user3@test.com")
+@user4 = User.create!(name: 'user4', password: "123456782", email:"user4@test.com")
+@user5 = User.create!(name: 'user5', password: "123456783", email:"user5@test.com")
 
 
 @doctor1 = @user1.doctors.create!(name: 'doctor1', location: 'lebanon', specification: 'eye specialist', picture: 'url', price: '25000', description: 'friendly and caring')
