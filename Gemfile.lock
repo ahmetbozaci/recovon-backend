@@ -72,6 +72,7 @@ GEM
     bootsnap (1.10.3)
       msgpack (~> 1.2)
     builder (3.2.4)
+    cancancan (3.3.0)
     cloudinary (1.22.0)
       aws_cf_signer
       rest-client (>= 2.0.0)
@@ -257,6 +258,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  cancancan
   cloudinary (~> 1.22)
   debug
   devise (~> 4.8, >= 4.8.1)

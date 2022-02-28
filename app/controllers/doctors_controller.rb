@@ -1,4 +1,5 @@
 class DoctorsController < ApplicationController
+  load_and_authorize_resource
   before_action :set_doctor, only: %i[show update destroy]
 
   # GET /doctors
