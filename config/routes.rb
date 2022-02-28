@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   root "users#index"
   resources :users
   post "/login", to: "sessions#login"
+  post "/logout", to: "sessions#logout"
 end
