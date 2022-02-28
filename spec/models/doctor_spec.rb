@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.describe Doctor, type: :model do
   describe 'Doctor validation tests' do
     subject do 
-      @user1 = User.new(id: 1, name: 'user1', email: 'user1@mail.com', password: '12345678', password_confirmation: '12345678')
-      Doctor.new(user_id: 1, name: 'doctor1', location: 'lebanon', specification: 'eye specialist', picture: 'url', price: 25000, description: 'friendly and caring')
+      @user1 = User.create!(name: 'user1', email: 'user1@mail.com', password: '12345678', password_confirmation: '12345678')
+      Doctor.create!(user_id: @user1.id, name: 'doctor1', location: 'lebanon', specification: 'eye specialist', picture: 'url', price: 25000, description: 'friendly and caring')
     end
     before { subject.save }
 
@@ -33,15 +33,14 @@ RSpec.describe Doctor, type: :model do
       expect(subject).to_not be_valid
     end
 
-    # it 'price should be integer' do
-    #   subject.price = 30
-    #   expect(subject).to be_valid
-    # end
+    it 'price should be integer' do
+      subject.price = 30
+      expect(subject).to be_valid
+    end
 
     it 'price should be greater 0' do
       subject.price = -1
       expect(subject).to_not be_valid
     end
-
   end
 end
