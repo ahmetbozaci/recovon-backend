@@ -2,9 +2,11 @@ require 'rails_helper'
 
 RSpec.describe Doctor, type: :model do
   describe 'Doctor validation tests' do
-    subject do 
-      @user1 = User.create!(name: 'user1', email: 'user1@mail.com', password: '12345678', password_confirmation: '12345678')
-      Doctor.create!(user_id: @user1.id, name: 'doctor1', location: 'lebanon', specification: 'eye specialist', picture: 'url', price: 25000, description: 'friendly and caring')
+    subject do
+      @user1 = User.create!(name: 'user1', email: 'user1@mail.com', password: '12345678',
+                            password_confirmation: '12345678')
+      Doctor.create!(user_id: @user1.id, name: 'doctor1', location: 'lebanon', specification: 'eye specialist',
+                     picture: 'url', price: 25_000, description: 'friendly')
     end
     before { subject.save }
 
