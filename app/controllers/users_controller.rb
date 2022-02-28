@@ -17,11 +17,11 @@ class UsersController < ApplicationController
     @user = User.create(user_params)
     if @user.valid?
       session[:id] = @user.id
-      payload = {user_id: @user.id}
+      payload = { user_id: @user.id }
       token = encode_token(payload)
-      render json: {user: @user, jwt: token}
+      render json: { user: @user, jwt: token }
     else
-      render json: {errors: @user.errors.full_messages}
+      render json: { errors: @user.errors.full_messages }
     end
   end
 

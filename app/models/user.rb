@@ -3,6 +3,6 @@ class User < ApplicationRecord
   has_many :doctors
   has_many :appointments
   validates :name, :email, :password, presence: true
-  validates :name, uniqueness: { case_sensitive: false }, length: {minimum: 6}
-  validates :password, confirmation:true, length: {minimum:8}
+  validates :name, uniqueness: { case_sensitive: false }, length: { minimum: 6 }
+  validates :password, confirmation: true, length: { minimum: 8 }
 end
