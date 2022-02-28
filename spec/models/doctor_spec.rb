@@ -1,5 +1,47 @@
 require 'rails_helper'
 
 RSpec.describe Doctor, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe 'Doctor validation tests' do
+    subject do 
+      @user1 = User.new(id: 1, name: 'user1', email: 'user1@mail.com', password: '12345678', password_confirmation: '12345678')
+      Doctor.new(user_id: 1, name: 'doctor1', location: 'lebanon', specification: 'eye specialist', picture: 'url', price: 25000, description: 'friendly and caring')
+    end
+    before { subject.save }
+
+    it 'name should be present' do
+      subject.name = nil
+      expect(subject).to_not be_valid
+    end
+
+    it 'location should be present' do
+      subject.location = nil
+      expect(subject).to_not be_valid
+    end
+
+    it 'specification should be present' do
+      subject.specification = nil
+      expect(subject).to_not be_valid
+    end
+
+    it 'picture should be present' do
+      subject.picture = nil
+      expect(subject).to_not be_valid
+    end
+
+    it 'description should be present' do
+      subject.description = nil
+      expect(subject).to_not be_valid
+    end
+
+    # it 'price should be integer' do
+    #   subject.price = 30
+    #   expect(subject).to be_valid
+    # end
+
+    it 'price should be greater 0' do
+      subject.price = -1
+      expect(subject).to_not be_valid
+    end
+
+  end
 end
