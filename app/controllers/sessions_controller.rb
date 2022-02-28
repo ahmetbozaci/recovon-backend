@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
   def login
-    user = User.find_by(name: params[:email])
+    user = User.find_by(email: params[:email])
     if user&.authenticate(params[:password])
       session[:id] = user.id
       payload = { user_id: user.id }
