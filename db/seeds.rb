@@ -7,6 +7,11 @@ end
 
 
 @user1 = User.create!(name: 'user1', password: "123456789", password_confirmation: "123456789", email:"user1@test.com")
+@user2 = User.create!(name: 'user2', password: "123456789", password_confirmation: "123456789", email:"user2@test.com")
+@user3 = User.create!(name: 'user3', password: "123456789", password_confirmation: "123456789", email:"user3@test.com")
+@user4 = User.create!(name: 'user4', password: "123456789", password_confirmation: "123456789", email:"user4@test.com")
+@user5 = User.create!(name: 'user5', password: "123456789", password_confirmation: "123456789", email:"user5@test.com")
+
 # @user2 = User.create!(name: 'user2', password: "123456780", email:"user2@test.com")
 # @user3 = User.create!(name: 'user3', password: "123456781", email:"user3@test.com")
 # @user4 = User.create!(name: 'user4', password: "123456782", email:"user4@test.com")

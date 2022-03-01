@@ -24,3 +24,7 @@ Things you may want to cover:
 * ...
 deployed link 
 https://final-api88.herokuapp.com
+
+deployed from develop branch
+https://glacial-basin-02412.herokuapp.com/
+
