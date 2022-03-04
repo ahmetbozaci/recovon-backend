@@ -9,7 +9,7 @@ class Ability
     if user.admin?
       can :manage, :all
     else
-      can :read, Doctor
+      can :read, Doctors, user: user
       can :manage, Appointments, user: user
     end
 
