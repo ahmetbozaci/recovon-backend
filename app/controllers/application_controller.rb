@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::API
   def current_user
-    @user = User.first
+    User.first
   end
 
   def encode_token(payload)
@@ -34,7 +34,7 @@ class ApplicationController < ActionController::API
   #   decoded_hash = decoden_token
   #   unless decoded_has.empty?
   #     user_id = decoded_hash[0]['user_id']
-  #     @usuer = User.find_by(id: user_id)
+  #     @user = User.find_by(id: user_id)
   #   end
   # end
 end

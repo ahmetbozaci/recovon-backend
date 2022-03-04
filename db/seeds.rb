@@ -22,14 +22,15 @@ end
 # @user5 = User.create!(name: 'user5', password: "123456783", email:"user5@test.com")
 
 
-@doctor1 = @user1.doctors.create!(name: 'doctor1', location: 'lebanon', specification: 'eye specialist', picture: 'url', price: '25000', description: 'friendly and caring')
-@doctor2 = @user1.doctors.create!(name: 'doctor2', location: 'paris', specification: 'eye specialist', picture: 'url', price: '55000', description: 'friendly and caring')
-@doctor3 = @user1.doctors.create!(name: 'doctor3', location: 'russia', specification: 'eye specialist', picture: 'url', price: '255000', description: 'friendly and caring')
-@doctor4 = @user1.doctors.create!(name: 'doctor4', location: 'ukraine', specification: 'eye specialist1', picture: 'url', price: '255000', description: 'friendly and caring')
+@doctor1 = @user1.doctors.create!(name: 'Ahmed Bozaci', location: 'Turkey', specification: 'Eye specialist', picture: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png', price: '100', description: 'friendly and caring')
+@doctor2 = @user1.doctors.create!(name: 'Tufoin Nkuo', location: 'Cameroon', specification: 'Heart specialist', picture: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png', price: '300', description: 'friendly and caring')
+@doctor3 = @user1.doctors.create!(name: 'Ali Abbani', location: 'Lebanon', specification: 'Plastic surgery', picture: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png', price: '300', description: 'friendly and caring')
+@doctor4 = @user1.doctors.create!(name: 'Henry Eze', location: 'Nigeria', specification: 'Dentist', picture: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png', price: '25', description: 'friendly and caring')
+@doctor5 = @user1.doctors.create!(name: 'William Pedro', location: 'Brazil', specification: 'Eye specialist1', picture: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png', price: '80', description: 'friendly and caring')
 
-# @appointment1 = Appointment.create!(user:@user1, doctor: @doctor1, time: Time.now, date: '24-02-2022')
-# @appointment2 = Appointment.create!(user:@user2, doctor: @doctor2, time: Time.now, date: '24-02-2022')
-# @appointment3 = Appointment.create!(user:@user3, doctor: @doctor3, time: Time.now, date: '24-02-2022')
+@appointment1 = Appointment.create!(user:@user1, doctor: @doctor1, time: Time.now, date: '24-02-2022')
+@appointment2 = Appointment.create!(user:@user2, doctor: @doctor2, time: Time.now, date: '24-02-2022')
+@appointment3 = Appointment.create!(user:@user3, doctor: @doctor3, time: Time.now, date: '24-02-2022')
 
 
 
