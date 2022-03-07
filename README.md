@@ -6,7 +6,8 @@
 - They can book an apointment with a doctor.
 - There are different doctors to chose from so your health is always assured by one of them
 - API created with ruby on rails.
-- After refreshing page it gets random greetings from the Api and displays in home page
+- You can create your apointment and see them in the my appointment page
+- Follow the link below to get to the front end of this app.
 
 ## link to front end
  Front-end: [Docstagram](https://github.com/ahmetbozaci/final-project-frontend)
