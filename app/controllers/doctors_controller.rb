@@ -16,7 +16,7 @@ class DoctorsController < ApplicationController
 
   # POST /doctors
   def create
-    @doctor = Doctor.create!(doctor_params)
+    @doctor = current_user.doctors.create!(doctor_params)
 
     if @doctor.save
       render json: @doctor, status: :created, location: @doctor
