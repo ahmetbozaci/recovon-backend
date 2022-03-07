@@ -9,8 +9,13 @@
 - You can create your apointment and see them in the my appointment page
 - Follow the link below to get to the front end of this app.
 
+## ERD Diagram
+> ![screenshot](erd_diagram.png)
+
 ## link to front end
  Front-end: [Docstagram](https://github.com/ahmetbozaci/final-project-frontend)
+
+
 
 
 ## Heroku
