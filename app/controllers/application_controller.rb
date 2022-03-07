@@ -1,16 +1,16 @@
 class ApplicationController < ActionController::API
-  def current_user
-    User.first
-  end
+  # def current_user
+  #   User.first
+  # end
 
   def encode_token(payload)
     JWT.encode(payload, 'my_secret')
   end
 
   # Catch all CanCan errors and alert the user of the exception
-  rescue_from CanCan::AccessDenied do |exception|
-    redirect_to root_url, alert: exception.message
-  end
+  # rescue_from CanCan::AccessDenied do |exception|
+  #   redirect_to root_url, alert: exception.message
+  # end
 
   # ! USE IT AFTER CREATE REACT
 
