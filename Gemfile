@@ -52,4 +52,4 @@ group :development do
 end
 
 # authorization gem
-# gem 'cancancan'
+gem 'cancancan'
