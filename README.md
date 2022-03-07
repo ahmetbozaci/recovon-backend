@@ -58,9 +58,9 @@ To run the tests locally :
 ## Author
 
 👤 **Ahmet Bocazi**
-<!-- * GitHub: [@tufoinnkuo10](https://github.com/tufoinnkuo10)
-* Twitter: [@itztenten](https://twitter.com/itztenten)
-* LinkedIn: [@tufoinnkuo10](https://www.linkedin.com/in/tufoin-nkuo-3b272320b) -->
+* GitHub: [@](https://github.com/)
+* Twitter: [@](https://twitter.com/)
+* LinkedIn: [@t](https://www.linkedin.com/in/)
 
 ## Author
 
@@ -72,9 +72,9 @@ To run the tests locally :
 ## Author
 
 👤 **Ali Abanni**
-<!-- * GitHub: [@tufoinnkuo10](https://github.com/tufoinnkuo10)
-* Twitter: [@itztenten](https://twitter.com/itztenten)
-* LinkedIn: [@tufoinnkuo10](https://www.linkedin.com/in/tufoin-nkuo-3b272320b) -->
+* GitHub: [@](https://github.com/)
+* Twitter: [@](https://twitter.com/)
+* LinkedIn: [@](https://www.linkedin.com/in/)
 
 ## 🤝 Contributing
 
