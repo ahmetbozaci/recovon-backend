@@ -9,6 +9,8 @@ end
 #     {name: 'user1', password: "123456789", password_confirmation: "123456789", email:"user1@test.com"},
 #     {name: 'user2', password: "123456789", password_confirmation: "123456789", email:"user2@test.com"},
 #     {name: 'user3', password: "123456789", password_confirmation: "123456789", email:"user3@test.com"},
+#     {name: 'user3', password: "123456789", password_confirmation: "123456789", email:"user3@test.com"},
+#     {name: 'user3', password: "123456789", password_confirmation: "123456789", email:"user3@test.com"},
 # ])
 
 # sampleDoctors = Doctor.create([
