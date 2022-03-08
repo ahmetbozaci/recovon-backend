@@ -15,12 +15,12 @@ RSpec.describe User, type: :model do
       expect(subject).to_not be_valid
     end
 
-    it 'password should be present' do
+    it 'unique password should be present' do
       subject.password = nil
       expect(subject).to_not be_valid
     end
 
-    it 'password confirmation should be present' do
+    it 'password confirmation of password should be present' do
       subject.password = nil
       expect(subject).to_not be_valid
     end
