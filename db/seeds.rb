@@ -19,6 +19,7 @@ end
 
 # sampleAppointments = Appointment.create([
 #     {user: sampleUsers[0], doctor: sampleDoctors[0], time: Time.now, date: '24-02-2022'},
+#     {user: sampleUsers[0], doctor: sampleDoctors[0], time: Time.now, date: '24-02-2022'},
 #     {user: sampleUsers[0], doctor: sampleDoctors[0], time: Time.now, date: '27-02-2022'},
 #     {user: sampleUsers[0], doctor: sampleDoctors[0], time: Time.now, date: '27-02-2022'},
 # ])
