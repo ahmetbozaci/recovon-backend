@@ -43,6 +43,7 @@ end
 @doctor4 = Doctor.create!(user: @user1, name: 'Henry Eze', location: 'Nigeria', specification: 'Dentist', picture: 'https://media.istockphoto.com/photos/if-you-need-me-just-call-me-picture-id1288813313?k=20&m=1288813313&s=612x612&w=0&h=NiAjImsLoy5_ssvIjtMdXmG5Hqmm8uYdIpNhfqfuvHE=', price: '80', description: 'do whatever it takes to help meet his patients’ needs')
 @doctor5 = Doctor.create!(user: @user1, name: 'William Pedro', location: 'Brazil', specification: 'geneticist ', picture: 'https://image.shutterstock.com/image-photo/cheerful-mature-doctor-posing-smiling-260nw-1384243295.jpg', price: '110', description: 'friendly and caring')
 @doctor10 = Doctor.create!(user: @user10, name: 'Benis Naah', location: 'France', specification: 'Dermatologists', picture: 'https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', price: '115', description: 'vigilant about following up on any tests that are done')
+@doctor10 = Doctor.create!(user: @user10, name: 'Benis Naah', location: 'France', specification: 'Dermatologists', picture: 'https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', price: '115', description: 'vigilant about following up on any tests that are done')
 
 @appointment1 = Appointment.create!(user:@user1, doctor: @doctor1, time: Time.now, date: '24-02-2022')
 @appointment2 = Appointment.create!(user:@user1, doctor: @doctor2, time: Time.now, date: '25-02-2022')
