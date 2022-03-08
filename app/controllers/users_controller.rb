@@ -21,7 +21,7 @@ class UsersController < ApplicationController
       token = encode_token(payload)
       render json: { user: @user, jwt: token }
     else
-      render json: { status:"error", errors: @user.errors.full_messages }
+      render json: { status: 'error', errors: @user.errors.full_messages }
     end
   end
 

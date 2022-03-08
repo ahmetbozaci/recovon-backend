@@ -12,6 +12,8 @@
 ## ERD Diagram
 > ![screenshot](erd_diagram.png)
 
+## test screenshot
+
 ## link to front end
  Front-end: [Docstagram](https://github.com/ahmetbozaci/final-project-frontend)
 
