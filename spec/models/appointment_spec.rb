@@ -12,12 +12,12 @@ RSpec.describe Appointment, type: :model do
     end
     before { subject.save }
 
-    it 'time should be present' do
+    it 'time should be present in the appointme' do
       subject.time = nil
       expect(subject).to_not be_valid
     end
 
-    it 'date should be present' do
+    it 'date set should be present' do
       subject.date = nil
       expect(subject).to_not be_valid
     end
