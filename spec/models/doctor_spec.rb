@@ -25,7 +25,7 @@ RSpec.describe Doctor, type: :model do
       expect(subject).to_not be_valid
     end
 
-    it 'picture should be present' do
+    it 'picture of doctor should be present' do
       subject.picture = nil
       expect(subject).to_not be_valid
     end
@@ -35,7 +35,7 @@ RSpec.describe Doctor, type: :model do
       expect(subject).to_not be_valid
     end
 
-    it 'price should be integer' do
+    it 'price should be present and should be an integer' do
       subject.price = 30
       expect(subject).to be_valid
     end
