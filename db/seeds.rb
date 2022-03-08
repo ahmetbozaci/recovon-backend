@@ -1,3 +1,4 @@
+# Auto regulate ids
 Appointment.destroy_all
 Doctor.destroy_all
 User.destroy_all
