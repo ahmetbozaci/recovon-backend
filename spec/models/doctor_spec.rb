@@ -10,22 +10,22 @@ RSpec.describe Doctor, type: :model do
     end
     before { subject.save }
 
-    it 'name should be present' do
+    it 'name of doctor should be present' do
       subject.name = nil
       expect(subject).to_not be_valid
     end
 
-    it 'location should be present' do
+    it 'location should be availa for user' do
       subject.location = nil
       expect(subject).to_not be_valid
     end
 
-    it 'specification should be present' do
+    it 'Doctors specification should be present' do
       subject.specification = nil
       expect(subject).to_not be_valid
     end
 
-    it 'picture should be present' do
+    it 'picture of doctor should be present' do
       subject.picture = nil
       expect(subject).to_not be_valid
     end
@@ -35,7 +35,7 @@ RSpec.describe Doctor, type: :model do
       expect(subject).to_not be_valid
     end
 
-    it 'price should be integer' do
+    it 'price should be present and should be an integer' do
       subject.price = 30
       expect(subject).to be_valid
     end
