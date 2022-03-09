@@ -5,17 +5,16 @@ class SessionsController < ApplicationController
       session[:id] = user.id
       payload = { user_id: user.id }
       token = encode_token(payload)
-      render json: { status: 200, logged_out: false, user: user, jwt: token, success: "Welcome back, #{user.name}" }
+      render json: { logged_in: true, user: user, jwt: token, success: "Welcome back, #{user.name}" }
     else
-      render json: { failure: 'Log in failed! Username or password invalid!' }
+      render json: { error: 'Log in failed! Username or password invalid!' }
     end
   end
 
   def logout
     session.clear
     render json: {
-      status: 200,
-      logged_out: true
+      logged_in: false
     }
   end
 end
