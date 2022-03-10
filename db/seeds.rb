@@ -39,5 +39,3 @@ sampleAppointments = Appointment.create([
     {user:@user1, doctor: sampleDoctors[0], time: Time.now, date: '24-02-2022'},
     {user:@user1, doctor: sampleDoctors[1], time: Time.now, date: '25-02-2022'},
 ])
-
-
