@@ -25,12 +25,19 @@
 
 ![shot of kanbanboard](kanbanboard.png)
 
+## Behance Design
 
-## Heroku
-deployed from develop branch
-https://final-api-55.herokuapp.com/
+[Designed that was followed](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign)
 
-## Built With
+
+
+# Heroku
+[View Deployment](https://final-api-55.herokuapp.com/)
+
+
+
+
+# Built With
 * Ruby on Rails
 * Jwt
 * Psql
@@ -69,7 +76,7 @@ To run the tests locally :
 -connect to your psql
 -  run `rails s` in your terminal
 
-## Authors
+# Authors
 
 👤 **Ali Abbani**
 - [GitHub](https://github.com/aliabbani)
@@ -97,13 +104,13 @@ Feel free to check the [issues page](../../issues).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- A special thanks to Microverse for inspiring this project. We are indebted to you all at Microverse
-- A special thanks goes to all our peers at Microverse for being there for us.
-
-
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+## Acknowledgments
+
+- A special thanks to Microverse for inspiring this project. We are indebted to you all at Microverse
+- A special thanks goes Learning partners, Standup and morning session team.
+- Thanks to [Murat Korkmaz](https://www.behance.net/muratk). for the Project Design from [Behance](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign)
 
