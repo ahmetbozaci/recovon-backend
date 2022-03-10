@@ -9,13 +9,11 @@
 - You can create your apointment and see them in the my appointment page
 - Follow the link below to get to the front end of this app.
 
+
 # ERD Diagram
 > ![screenshot](erd_diagram.png)
 
 ## test screenshot
-
-## link to front end
- Front-end: [Recovon](https://github.com/ahmetbozaci/recovon-frontend)
 
 # kanband Board
 ## Total Number of Members 03
@@ -24,6 +22,19 @@
 - [👤**Ali Abbani**](https://github.com/aliabbani)
 
 ![shot of kanbanboard](kanbanboard.png)
+
+# link to front end
+ [Frontend.....](https://github.com/ahmetbozaci/recovon-frontend)
+
+# link to front-end pull request
+[Front-end pull request](https://github.com/ahmetbozaci/recovon-frontend/pull/22)
+
+
+
+# Front-end screenshot
+
+![Desktop](desktop-version.png)
+![Mobile](mobile-version.png)
 
 ## Behance Design
 
