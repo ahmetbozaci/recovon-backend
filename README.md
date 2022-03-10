@@ -18,8 +18,12 @@
  Front-end: [Recovon](https://github.com/ahmetbozaci/recovon-frontend)
 
 # kanband Board
-- [] Total Number of Members 03
-- [Ahmet](https://github.com/ahmetbozaci)
+## Total Number of Members 03
+- [👤**Ahmet Bozacı**](https://github.com/ahmetbozaci)
+- [👤**Tufoin Nkuo**](https://github.com/tufoinnkuo10)
+- [👤**Ali Abbani**](https://github.com/aliabbani)
+
+![shot of kanbanboard](kanbanboard.png)
 
 
 ## Heroku
