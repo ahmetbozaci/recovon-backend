@@ -9,7 +9,7 @@
 - You can create your apointment and see them in the my appointment page
 - Follow the link below to get to the front end of this app.
 
-## ERD Diagram
+# ERD Diagram
 > ![screenshot](erd_diagram.png)
 
 ## test screenshot
@@ -17,14 +17,27 @@
 ## link to front end
  Front-end: [Recovon](https://github.com/ahmetbozaci/recovon-frontend)
 
+# kanband Board
+## Total Number of Members 03
+- [👤**Ahmet Bozacı**](https://github.com/ahmetbozaci)
+- [👤**Tufoin Nkuo**](https://github.com/tufoinnkuo10)
+- [👤**Ali Abbani**](https://github.com/aliabbani)
+
+![shot of kanbanboard](kanbanboard.png)
+
+## Behance Design
+
+[Designed that was followed](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign)
 
 
 
-## Heroku
-deployed from develop branch
-https://final-api-55.herokuapp.com/
+# Heroku
+[View Deployment](https://final-api-55.herokuapp.com/)
 
-## Built With
+
+
+
+# Built With
 * Ruby on Rails
 * Jwt
 * Psql
@@ -63,7 +76,7 @@ To run the tests locally :
 -connect to your psql
 -  run `rails s` in your terminal
 
-## Authors
+# Authors
 
 👤 **Ali Abbani**
 - [GitHub](https://github.com/aliabbani)
@@ -91,13 +104,13 @@ Feel free to check the [issues page](../../issues).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- A special thanks to Microverse for inspiring this project. We are indebted to you all at Microverse
-- A special thanks goes to all our peers at Microverse for being there for us.
-
-
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+## Acknowledgments
+
+- A special thanks to Microverse for inspiring this project. We are indebted to you all at Microverse
+- A special thanks goes Learning partners, Standup and morning session team.
+- Thanks to [Murat Korkmaz](https://www.behance.net/muratk). for the Project Design from [Behance](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign)
 
