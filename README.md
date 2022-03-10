@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-## Docstagram App
+## Recovon App
 - The backend of an app aimed at helping patients where ever they are in the world
 - They can book an apointment with a doctor.
 - There are different doctors to chose from so your health is always assured by one of them
@@ -15,7 +15,7 @@
 ## test screenshot
 
 ## link to front end
- Front-end: [Docstagram](https://github.com/ahmetbozaci/final-project-frontend)
+ Front-end: [Recovon](https://github.com/ahmetbozaci/recovon-frontend)
 
 
 
@@ -63,26 +63,23 @@ To run the tests locally :
 -connect to your psql
 -  run `rails s` in your terminal
 
-## Author
+## Authors
 
-👤 **Ahmet Bocazi**
-* GitHub: [@](https://github.com/)
-* Twitter: [@](https://twitter.com/)
-* LinkedIn: [@t](https://www.linkedin.com/in/)
+👤 **Ali Abbani**
+- [GitHub](https://github.com/aliabbani)
+- [AngelList](https://angel.co/u/ali-abbani)
+- [LinkedIn](https://www.linkedin.com/in/ali-abbani-8b6246150/)
 
-## Author
+👤 **Ahmet Bozacı**
+- [Github](https://github.com/ahmetbozaci)
+- [Twitter](https://twitter.com/ahmtbozaci)
+- [LinkedIn](https://www.linkedin.com/in/ahmetbozaci/)
 
 👤 **Tufoin Nkuo**
-* GitHub: [@tufoinnkuo10](https://github.com/tufoinnkuo10)
-* Twitter: [@itztenten](https://twitter.com/itztenten)
-* LinkedIn: [@tufoinnkuo10](https://www.linkedin.com/in/tufoin-nkuo-3b272320b)
+- [GitHub](https://github.com/tufoinnkuo10)
+- [Twitter](https://twitter.com/itztenten)
+- [LinkedIn](https://www.linkedin.com/in/tufoin-nkuo-3b272320b)
 
-## Author
-
-👤 **Ali Abanni**
-* GitHub: [@](https://github.com/)
-* Twitter: [@](https://twitter.com/)
-* LinkedIn: [@](https://www.linkedin.com/in/)
 
 ## 🤝 Contributing
 
