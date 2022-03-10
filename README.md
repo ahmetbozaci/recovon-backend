@@ -9,7 +9,7 @@
 - You can create your apointment and see them in the my appointment page
 - Follow the link below to get to the front end of this app.
 
-## ERD Diagram
+# ERD Diagram
 > ![screenshot](erd_diagram.png)
 
 ## test screenshot
@@ -17,7 +17,9 @@
 ## link to front end
  Front-end: [Recovon](https://github.com/ahmetbozaci/recovon-frontend)
 
-
+# kanband Board
+- [] Total Number of Members 03
+- [Ahmet](https://github.com/ahmetbozaci)
 
 
 ## Heroku
