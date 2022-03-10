@@ -33,21 +33,11 @@ sampleDoctors = Doctor.create([
     specification: 'geneticist ', 
     picture: 'https://image.shutterstock.com/image-photo/cheerful-mature-doctor-posing-smiling-260nw-1384243295.jpg', 
     price: '110', description: 'friendly and caring'},
-
-    {user: @user1, name: 'Benis Naah', location: 'France', 
-    specification: 'Dermatologists', 
-    picture: 'https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', 
-    price: '115', description: 'vigilant about following up on any tests that are done'}
 ]) 
 
 sampleAppointments = Appointment.create([
     {user:@user1, doctor: sampleDoctors[0], time: Time.now, date: '24-02-2022'},
     {user:@user1, doctor: sampleDoctors[1], time: Time.now, date: '25-02-2022'},
-    {user:@user1, doctor: sampleDoctors[2], time: Time.now, date: '26-02-2022'},
-    {user:@user1, doctor: sampleDoctors[3], time: Time.now, date: '27-02-2022'},
-    {user:@user1, doctor: sampleDoctors[4], time: Time.now, date: '28-02-2022'},
-    {user:@user1, doctor: sampleDoctors[5], time: Time.now, date: '01-03-2022'},
-    {user:@user1, doctor: sampleDoctors[1], time: Time.now, date: '02-03-2022'},
 ])
 
 
