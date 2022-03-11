@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.4'
+ruby '2.7.5'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.2', '>= 7.0.2.2'
@@ -41,9 +41,13 @@ gem 'jwt', '~> 2.3'
 gem 'net-http'
 gem 'rack-cors'
 gem 'rspec-rails'
+
+gem 'rswag-api'
+gem 'rswag-ui'
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'rswag-specs'
 end
 
 group :development do
