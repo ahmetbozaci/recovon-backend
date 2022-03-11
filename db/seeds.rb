@@ -6,7 +6,7 @@ ActiveRecord::Base.connection.tables.each do |t|
     ActiveRecord::Base.connection.reset_pk_sequence!(t)
 end
 
-@user1 = User.create!(name: 'user1', password: "123456789", password_confirmation: "123456789", email:"user1@test.com")
+@user1 = User.create!(name: 'user1', password: "123456789", password_confirmation: "123456789", email:"user1@test.com", admin: true)
 
 sampleDoctors = Doctor.create([
     {user: @user1, name: 'Ahmet Bozaci', location: 'Turkey', 
